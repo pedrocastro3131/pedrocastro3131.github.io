@@ -1,0 +1,372 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Curriculum de Pedro Castro</title>
+<link href="../lib-css/styles.css" rel="stylesheet" type="text/css" />
+<script src="https://www.google.com/jsapi"></script>
+<script>
+<!--
+	google.load("jquery", "1.3.2");
+//-->
+</script>
+<script type="text/javascript" language="javascript" src="../lib-js/jquery.dropdownPlain.js"></script>
+<script type="text/javascript" src="../lib-js/jcarousellite.min.js"></script>
+<script type="text/javascript" src="../lib-js/jquery.easing.1.1.js"></script>
+<script>
+$(function() {
+    $(".bookCarousel").jCarouselLite({
+        btnNext: ".next",
+        btnPrev: ".prev",
+		visible: 4,
+		speed: 500,
+		easing: "easeinout"
+    });
+});
+
+</script>
+<script type="text/javascript">
+var timeout         = 500;
+var closetimer		= 0;
+var ddmenuitem      = 0;
+
+function jsddm_open()
+{	jsddm_canceltimer();
+	jsddm_close();
+	ddmenuitem = $(this).find('ul').eq(0).css('visibility', 'visible');}
+
+function jsddm_close()
+{	if(ddmenuitem) ddmenuitem.css('visibility', 'hidden');}
+
+function jsddm_timer()
+{	closetimer = window.setTimeout(jsddm_close, timeout);}
+
+function jsddm_canceltimer()
+{	if(closetimer)
+	{	window.clearTimeout(closetimer);
+		closetimer = null;}}
+
+$(document).ready(function()
+{	$('#jsddm > li').bind('mouseover', jsddm_open);
+	$('#jsddm > li').bind('mouseout',  jsddm_timer);});
+
+document.onclick = jsddm_close;
+</script>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-3014587-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+
+<body>
+<div id="top">
+<div id="mainNav">
+<ul id="jsddm">
+	<li><a href="../index.html">Inicio</a></li>
+    <li><a href="publicaciones.html">Publicaciones</a>
+    	<ul>
+        	<li><a href="alvaro-obregon-fuego-y-cenizas.html">&Aacute;lvaro Obreg&oacute;n<span> fuego y cenizas 
+de la Revolución Mexicana</span></a></li>
+        	<li><a href="adolfo-de-la-huerta-desconocido-roberto-guzman-esparza.html">Adolfo de la Huerta <span>El desconocido de Roberto Guzmán Esparza</span></a></li>
+        	<li><a href="sombra-de-un-caudillo-general-francisco-serrano.html">A la Sombra de un Caudillo<span>vida y muerte del general Francisco R. Serrano</span></a></li>
+        	<li><a href="soto-y-gama-genio-y-figura.html">Soto y Gama<span>genio y figura</span></a></li>
+          	<li><a href="adolfo-de-la-huerta-protagonistas-historia-mexicana.html">Adolfo de la Huerta <span>Serie Grandes Protagonistas de la Historia Mexicana</span></a></li>
+        	<li><a href="historia-del-agrarismo-en-mexico.html">Historia del Agrarismo en M&eacute;xico</a></li>
+        	<li><a href="ciudad-cuauhtemoc-chihuahua-cronica-fundacion.html">Ciudad Cuauht&eacute;moc, Chihuahua<span>crónica de su fundación</span></a></li>
+        	<li><a href="adolfo-de-la-huerta-la-integridad-como-arma-revolucion.html">Adolfo de la Huerta: <span>la integridad como arma de la revolución</span></a></li>
+        	<li><a href="adolfo-de-la-huerta-revolucion-mexicana.html">Adolfo de la Huerta <span>y la Revolución Mexicana</span></a></li>
+        	<li><a href="fronteras-abiertas-geopolitica-expansionismo-brasil.html">Fronteras Abiertas<span>geopolítica y expansionismo en Brasil contemporáneo</span></a></li>
+        </ul>
+    </li>
+    <li><a href="curriculum-de-pedro-castro.html">Curr&iacute;culum</a></li>
+</ul>
+</div>
+</div>
+<div id="mid">
+<div id="wrapper">
+<div id="bookImage"><img src="../images/books-by-pedro-castro.jpg" alt="obregon" width="281" height="373" /></div>
+    <div id="logo"><a href="../index.html"><img src="../images/logo-pedro-castro.jpg" alt="pedro castro martinez" width="329" height="64" border="0" /></a></div>
+<div id="pageTitle">
+    <h1>Pedro Castro</h1>
+    <h4><a href="mailto:pcm@xanum.uam.mx">pcm@xanum.uam.mx</a></h4></div>
+<br clear="left" />	
+<div id="divider"><img src="../images/divider-full-page-gray.gif" width="776" height="28" /></div>    
+<dl>
+<dt>Lugar y fecha de nacimiento</dt>
+<dd>Cd. Cuauht&eacute;moc, Chih., 16 de junio de 1952</dd>
+</dl>
+<h4>Experiencia Acad&eacute;mica</h4>
+<dl>
+<dt>1981 a la fecha </dt>
+<dd>Profesor-Investigador de Tiempo Completo, por oposici&oacute;n.<br />
+Categor&iacute;a Titular C, en la Unidad Iztapalapa de la Universidad Aut&oacute;noma Metropolitana.<br />
+&Aacute;rea de Ciencia Pol&iacute;tica.<br />
+Responsable de las materias: Análisis de las Relaciones Internacionales I y II.<br /> 
+He impartido cursos sobre historia del sistema político mexicano.</dd>
+<dt>Principales l&iacute;neas de investigaci&oacute;n</dt>
+<dd>Historia Pol&iacute;tica de M&eacute;xico, biograf&iacute;as pol&iacute;ticas, procesos pol&iacute;ticos de M&eacute;xico y de su pol&iacute;tica exterior.</dd>
+</dl>
+<h4>Educaci&oacute;n</h4>
+
+<dl>
+<dt>Estudios Realizados</dt>
+<dd>Facultad de Filosof&iacute;a y Letras.<br /> 
+Universidad Nacional Aut&oacute;noma de M&eacute;xico (1994-1998).<br />
+Doctor en Historia (Menci&oacute;n Honor&iacute;fica)</dd>
+<dd> The London School of Economics and Political Science.<br /> 
+University of London (1983-1985).<br />
+M.A. en Estudios Latinoamericanos</dd>
+<dd> El Colegio de M&eacute;xico. Centro de Estudios Internacionales (1971-1975).<br />
+Licenciado en Relaciones Internacionales</dd>
+<dt>Becas y Premios</dt>
+<dd>Beca para estudiar la licenciatura en El Colegio de M&eacute;xico durante cuatro a&ntilde;os</dd>
+<dd>Beca del Consejo Brit&aacute;nico para estudiar la maestr&iacute;a en la Gran Breta&ntilde;a</dd>
+<dd>Becario de los Faculty Research y Faculty Enrichment Programs para realizar programas de estudios e investigaci&oacute;n en los campos de la pol&iacute;tica y econom&iacute;a del Canad&aacute; contempor&aacute;neo</dd>
+<dd>Becario del Fondo de Intercambio Acad&eacute;mico, A. C., y la Universidad de Oxford, realizar una estancia de investigaci&oacute;n en la Gran Breta&ntilde;a, durante seis meses.</dd>
+<dd>Becario de la Bolsa C. B. Smith Sr. de la Universidad de Austin en Texas, para realizar una estancia de investigaci&oacute;n en este lugar durante dos semanas</dd>
+<dd>Segundo Premio en el Concurso &quot;&iquest;Qu&eacute; Hacer en Am&eacute;rica Latina?&quot;, organizado por Siglo XXI Editores. Abril de 1980</dd>
+<dd>Primer Premio de Ensayo sobre Am&eacute;rica Latina para 1980 en el concurso anual de la revista Plural. Octubre de 1980</dd>
+<dd>Menci&oacute;n Honor&iacute;fica en el concurso Salvador Azuela 1990. Instituto de Estudios Hist&oacute;ricos de la Revoluci&oacute;n Mexicana, con la biograf&iacute;a de Adolfo de la Huerta</dd>
+<dd>Fondo Nacional para la Cultura y las Artes (FONCA), patrocinio del proyecto &#8220;Ciudad Cuauht&eacute;moc: hacendados, agraristas y menonitas en su fundaci&oacute;n&#8221;. Marzo del 2000</dd>
+<dd>Fondo Nacional para la Cultura y las Artes (FONCA), patrocinio del proyecto &#8220;Historia del Agrarismo en M&eacute;xico, por Antonio D&iacute;az Soto y Gama&quot;. Octubre del 2001</dd>
+<dd>Miembro del Sistema Nacional de Investigadores (SNI), Nivel II</dd>
+<dd>Premio Francisco Javier Clavijero de Investigación, correspondiente a 2010, otorgado por el Instituto Nacional de Antropología e Historia (INAH), por el libro Álvaro Obregón: fuego y cenizas de la Revolución Mexicana.</dd>
+<dt>Idiomas</dt>
+<dd>Ingl&eacute;s (dominio completo)<br />Portugu&eacute;s (traducci&oacute;n)<br />Franc&eacute;s (traducci&oacute;n)</dd>
+<dt>Conferencias y Congresos</dt>
+<dd>Universidad Aut&oacute;noma Metropolitana, Universidad Nacional Aut&oacute;noma de M&eacute;xico, El Colegio de M&eacute;xico y el Instituto Tecnol&oacute;gico Aut&oacute;nomo de M&eacute;xico. Universidades de Aguascalientes, Colima, Oaxaca, Guadalajara, Quer&eacute;taro, Sonora, Jalapa, Sinaloa, University of Alberta (Calgary), University of British Columbia (Vancouver), University of Winnipeg y Oxford University</dd>
+</dl>
+<h4>Publicaciones</h4>
+
+<dl>
+<dt>Libros</dt>
+<dd><em>Fronteras Abiertas: geopol&iacute;tica y expansionismo en Brasil contempor&aacute;neo</em>.<br />
+M&eacute;xico: Siglo XXI Editores. 1980. <br />
+Segunda Edici&oacute;n en Espa&ntilde;a, 1989</dd>
+<dd><em>Adolfo de la Huerta: la integridad como arma de la revoluci&oacute;n.</em> <br />
+Universidad Aut&oacute;noma Metropolitana-Iztapalapa-Siglo XXI Editores.1999</dd>
+<dd><em>Ciudad Cuauht&eacute;moc, Chihuahua : cr&oacute;nica de su fundaci&oacute;n.</em><br />
+Fondo Nacional para la Cultura y las Artes (FONCA)-Universidad Aut&oacute;noma Metropolitana. 2000</dd>
+<dd><em>Historia del Agrarismo en M&eacute;xico (Antonio D&iacute;az Soto y Gama).</em> <br />
+Pr&oacute;logo, semblanza, rescate y Edici&oacute;n de Pedro Castro. <br />
+Fondo Nacional para la Cultura y las Artes (FONCA)-Universidad Aut&oacute;noma Metropolitana Iztapalapa. 2002.</dd>
+<dd><em>Soto y Gama: genio y figura. </em><br />
+Direcci&oacute;n de Difusi&oacute;n Cultural de la Universidad Aut&oacute;noma Metropolitana. 2003</dd>
+<dd><em>Adolfo de la Huerta. Serie Grandes Protagonistas de la Historia Mexicana.</em><br />
+Barcelona: Editorial Planeta D&#8217;Agostini.2003</dd>
+<dd><em>A la Sombra de un Caudillo: vida y muerte del general Francisco R. Serrano. </em><br />
+M&eacute;xico: Plaza &amp; Jan&eacute;s. 2005</dd>
+<dd><em>Adolfo de la   Huerta, el desconocido</em>, de Roberto Guzm&aacute;n Esparza.<br />
+Edici&oacute;n  preliminar, rescate e iconograf&iacute;a</em> de Pedro Castro. <br />
+  Colecci&oacute;n Los Centenarios.  Universidad Aut&oacute;noma Metropolitana. 2009</pdd>
+<dd><em>&Aacute;lvaro Obreg&oacute;n: fuego y cenizas de la Revoluci&oacute;n Mexicana</em>.<br />
+  M&eacute;xico: Ediciones Era. 2009, 466 pp. </dd>
+<dd>“Adolfo López Mateos y la Generación del 29: Vasconcelismo y autonomía universitaria”, en Rogelio Hernández Rodríguez (coord.) <em>Adolfo López Mateos: una vida dedicada a la política, </em>Gobierno del Estado de México. 2010 , pp. 111-140</dd>
+<dd>“La muerte de Emiliano Zapata y la construcción del mito”, en Gustavo Leyva, Brian Connaughton, Rodrigo Díaz, Néstor García Canclini, Carlos Illades.<em> Independencia y Revolución: pasado, presente y futuro</em>. México: Universidad Autónoma Metropolitana Iztapalapa-Fondo de Cultura Económica.  2010, pp. 537-559</dd>  
+<dt>Coordinaci&oacute;n de trabajos para libros y revistas</dt>
+<dd><em>Las Pol&iacute;ticas Salinistas: balance a mitad de sexenio (1988-1991).</em> M&eacute;xico: Universidad Aut&oacute;noma Metropolitana-Iztapalapa. 1993</dd>
+<dd>Dos n&uacute;meros monogr&aacute;ficos dedicados a pol&iacute;tica y econom&iacute;a de Canad&aacute; contempor&aacute;neo, en Comercio Exterior: Banco Nacional de Comercio Exterior, S. N. C. Vol. 4, nums. 1 y 2. Enero y febrero de 1994</dd>
+<dd>La Modernidad Inconclusa: visiones desde el presente mexicano. Universidad Aut&oacute;noma Metropolitana. 1996</dd>
+<dt>Cap&iacute;tulos de libros </dt>
+<dd><em>&#8220;La Sociedad Internacional&quot;, en el Diccionario de Terminolog&iacute;a Cient&iacute;fico-Social: una aproximaci&oacute;n cr&iacute;tica. Rom&aacute;n Reyes (comp.).</em> Universidad Complutense de Madrid: Editorial Anthropos. Barcelona. 1988</dd>
+<dd>&#8220;Iglesia y Estado en M&eacute;xico: la era de las afinidades&#8221;, en <em>Las pol&iacute;ticas salinistas: balance a mitad del sexenio (1988-1991)</em>. M&eacute;xico: Universidad Aut&oacute;noma Metropolitana-Iztapalapa. 1992
+<br /><br />
+  “Adolfo de la Huerta”, en Will Fowler (coord.) Gobernantes Mexicanos, t. II. México: Fondo de Cultura Económica. 2008<br />
+  <br />
+  &nbsp;&ldquo;Adolfo de la Huerta, un pol&iacute;tico en el  canto&rdquo;, en <em>20/10 Memoria de las Revoluciones de M&eacute;xico</em>, n. 5, Oto&ntilde;o 2009
+    </dd>
+<dt>Art&iacute;culos en revistas</dt>
+<dd><em>&quot;Los hidrocarburos en las relaciones entre Estados Unidos y M&eacute;xico&quot;</em>, en Plural, n. 14, marzo de 1981</dd>
+<dd><em>&quot;La crisis energ&eacute;tica norteamericana&quot;</em>, art&iacute;culo 
+      publicado en la Revista Mexicana de Ciencias Pol&iacute;ticas y Sociales. 
+      Facultad de Ciencias Pol&iacute;ticas y Sociales, n. 104-105. Abril-Septiembre 
+      de 1981</dd>
+	  <dd><em>&quot;El Acuerdo de Libre Comercio Estados Unidos-Canad&aacute;&quot;</em>, publicado en Comercio Exterior: Banco Nacional de Comercio Exterior, S. N. C. Vol. 39, n. 4, abril de 1989</dd>
+<dd><em>&quot;Las tres fronteras&quot;</em>, en Relaciones M&eacute;xico-Estados Unidos. Iztapalapa: revista de ciencias sociales y humanidades. A&ntilde;o 9, n. 17, Enero-Junio de 1989</dd>
+<dd><em>&quot;M&eacute;xico a la hora de la integraci&oacute;n&quot;</em>, en Balance de un Sexenio 1982-1988. Iztapalapa: revista de ciencias sociales y humanidades. A&ntilde;o 9, n. 18, Julio-Dic. 1989</dd>
+<dd><em>&quot;M&eacute;xico y la Pol&iacute;tica Comercial de los Estados Unidos 1982-1988&quot;</em>, en Foro Internacional: revista del Centro de Estudios Internacionales de El Colegio de M&eacute;xico.119, vol. 30, n. 3, Enero-Marzo de 1990</dd>
+<dd><em>&quot;La rebeli&oacute;n delahuertista: lecciones de un ensayo fallido&quot;</em>, en Iztapalapa: revista de ciencias sociales y humanidades 19. Universidad Aut&oacute;noma Metropolitana-Iztapalapa. A&ntilde;o 10, n&uacute;m. 19, Enero-Junio de 1990</dd>
+<dd><em>&quot;El CAME: &iquest;fin o renovaci&oacute;n?&quot;</em>, en Iztapalapa: revista de ciencias sociales y humanidades. A&ntilde;o 9, n. 19, Enero-Junio de 1990</dd>
+<dd><em>&quot;El CAME: econom&iacute;a y pol&iacute;tica&quot;</em>, en Comercio Exterior: Banco Nacional de Comercio Exterior, S: N. C. vol. 40, n. 5, mayo de 1990</dd>
+<dd><em>&quot;El mito racial en la guerra norteamericana contra M&eacute;xico&quot;</em>, en Polis 90: Anuario de Sociolog&iacute;a. Departamento de Sociolog&iacute;a. 1990</dd>
+<dd><em>&quot;Corporativismo y representaci&oacute;n pol&iacute;tica ante el TLC&quot;</em>, 
+                en Polis 91: Anuario de Sociolog&iacute;a. Departamento de Sociolog&iacute;a. 
+                Universidad Aut&oacute;noma Metropolitana-Iztapalapa. 1991</dd>
+<dd><em>&quot;Andrew Jackson y la causa texana&quot;</em>, en Secuencia: revista de 
+                historia y ciencias sociales, n. 20. Instituto Mora, Mayo-Agosto de 1991</dd>
+            
+              <dd><em>&quot;El Tratado de Libre Comercio con Estados Unidos y Canad&aacute;&quot;</em>, 
+                en colaboraci&oacute;n con Gabriel Gaspar, en Andes: Quadrimestrale iscos 
+                di politica e cultura sull America Latina, n. 13. Roma. 1992</dd>
+            
+              <dd><em>&quot;El petr&oacute;leo de M&eacute;xico en la coyuntura del TLC&quot;</em>, 
+                en Iztapalapa: revista de ciencias sociales y humanidades 27, Departamento 
+                de Sociolog&iacute;a. Universidad Aut&oacute;noma Metropolitana-Iztapalapa. 
+                A&ntilde;o 12, Extraordinario de 1992</dd>
+            
+              <dd><em>&quot;&iquest;Nuevo separatismo de Quebec?&quot;</em>, en Foro Internacional: 
+                revista trimestral publicada por El Colegio de M&eacute;xico. 128-129. Vol. 
+                32, num. 4 Abril.Septiembre de 1992</dd>
+            
+              <dd>Rese&ntilde;a del libro Continental Divide: the values and institutions 
+                of the United States and Canada (Symour ). Londres: Routledge, Chapman and 
+                Hall Inc. 1991, en Foro Internacional: revista trimestral publicada por 
+                El Colegio de M&eacute;xico 133.Vol. 33, n. 3, Julio-Septiembre de 1993</dd>
+            
+              <dd><em>&quot;Comercio e Inversiones M&eacute;xico-Canad&aacute;: un asunto trilateral&quot;</em>, 
+                en Comercio Exterior: Banco Nacional de Comercio Exterior, S. N. C. Vol. 
+                43, n&uacute;m. 5, mayo de 1993</dd>
+            
+              <dd><em>&quot;El nacionalismo esteuropeo: &iquest;ha terminado la ca&iacute;da?&quot;</em>, 
+                en Polis 93: Anuario de Sociolog&iacute;a. Departamento de Sociolog&iacute;a. 
+                Universidad Aut&oacute;noma Metropolitana-Iztapalapa. 1994</dd>
+            
+              <dd><em>&quot;M&eacute;xico-Estados Unidos: dos herencias coloniales&quot;</em>, en 
+                Historia y pol&iacute;tica. Iztapalapa: revista de ciencias sociales y humanidades, 
+                32. Universidad Aut&oacute;noma Metropolitana-Iztapalapa. A&ntilde;o 14, 
+                num. 32, Enero-Junio de 1994</dd>
+            
+              <dd><em>&quot;Relaciones M&eacute;xico-Canad&aacute;: un asunto de seguridad nacional&quot;</em>, 
+                en Seguridad y Soberan&iacute;a Nacionales en Am&eacute;rica Latina. Sociol&oacute;gica: 
+                Revista del Departamento de Sociolog&iacute;a. Universidad Aut&oacute;noma 
+                Metropolitana-Azcapotzalco. A&ntilde;o 9, n. 25, Mayo-Agosto de 1994</dd>
+            
+              <dd><em>&quot;El Movimiento de Agua Prieta: presencias sin olvido&quot;</em>, Estudios 
+                de Historia Moderna y Contempor&aacute;nea de M&eacute;xico, n. 17. Instituto 
+                de Investigaciones Hist&oacute;ricas. 1996</dd>
+            
+              <dd><em>&quot;M&eacute;xico y Canad&aacute;: la b&uacute;squeda de una nueva relaci&oacute;n&quot;</em>, 
+                en n&uacute;mero extraordinario de Foro Internacional: revista trimestral 
+                publicada por El Colegio de M&eacute;xico, vo., XXXIV, Octubre-Diciembre 
+                1994, n. 4, n. 138</dd>
+            
+              <dd><em>&quot;La Intervenci&oacute;n Olvidada: Washington en la rebeli&oacute;n 
+                delahuertista&quot;</em>, en Secuencias: revista de historia y ciencias sociales. 
+                N. 34. Instituto Mora. Enero-abril de 1996</dd>
+            
+              <dd><em>&quot;Chiapas: las verdes frutas de la paz armada&quot;</em>, en La Modernidad 
+                Inconclusa: visiones desde el presente mexicano. UAM-Iztapalapa. 1996</dd>
+            
+              <dd><em>&#8220;El convenio De la Huerta-Lamont de 1922&#8221;</em>, Revista Econom&iacute;a: 
+                Teor&iacute;a y Pr&aacute;ctica, n. 7 Departamento de Econom&iacute;a. Universidad 
+                Aut&oacute;noma Metropolitana-Azcapotzalco. Primer Trimestre de 1997</dd>
+            
+              <dd><em>&#8220;De la Huerta y Calles: los l&iacute;mites pol&iacute;ticos de la 
+                amistad&#8221;</em>. Bolet&iacute;n: Fideicomiso Archivos Plutarco El&iacute;as 
+                Calles y Fernando Torreblanca, n. 23</dd>
+            
+              <dd><em>&#8220;Adolfo de la Huerta, el pacificador&#8221;</em>, en Estudios de Historia 
+                Moderna y Contempor&aacute;nea. Instituto de Investigaciones Hist&oacute;ricas 
+                UNAM, de pr&oacute;xima aparici&oacute;n</dd>
+            
+              <dd><em>&#8220;Una estrategia internacional contra la Ley Helms-Burton&#8221;</em>, 
+                Foro Internacional Centro de Estudios Internacionales de El Colegio de M&eacute;xico, 
+                abril de 1998, n. 148</dd>
+            
+              <dd><em>&#8220;La Ley Helms-Burton: un obst&aacute;culo al libre comercio&#8221;</em>, 
+                Comercio Exterior: Banco Nacional de Comercio Exterior, S. N. C., marzo 
+                de 1998</dd>
+            
+              <dd><em>&#8220;La Ley Helms-Burton y la extraterritorialidad de las leyes internas: 
+                elementos para su explicaci&oacute;n&#8221;</em>, Revista Mexicana de Pol&iacute;tica 
+                Exterior. Instituto Mat&iacute;as Romero de Estudios Diplom&aacute;ticos, 
+                febrero de 1998</dd>
+            
+              <dd><em>&#8220;Adolfo de la Huerta y la &uacute;ltima insurrecci&oacute;n yaqui&#8221;</em>, 
+                Estudios de Historia Moderna y Contempor&aacute;nea de M&eacute;xico: Instituto 
+                de Investigaciones Hist&oacute;ricas UNAM, marzo de 1998</dd>
+            
+              <dd><em>&#8220;Veinte a&ntilde;os despu&eacute;s: el Senado norteamericano aprueba 
+                el tratado de l&iacute;mites mar&iacute;timos M&eacute;xico-Estados Unidos&#8221;</em>, 
+                Revista Mexicana de Pol&iacute;tica Exterior: Instituto Mat&iacute;as Romero 
+                de Estudios Diplom&aacute;ticos. Secretar&igrave;a de Relaciones Exteriores, 
+                abril de 1998</dd>
+            
+              <dd><em>&#8220;Los Tratados de Bucareli: un juego de doble banda&#8221;</em>, en Revista 
+                Econom&iacute;a: Teor&iacute;a y Pr&aacute;ctica, Departamento de Econom&iacute;a. 
+                Universidad Aut&oacute;noma Metropolitana-Azcapotzalco. Primer Trimestre 
+                de 1999</dd>
+            
+              <dd><em>&#8220;La muerte de Carranza; dudas y certezas&#8221;</em>, en Bolet&iacute;n: 
+                Fideicomiso Plutarco El&iacute;as Calles-Fernando Torreblanca, n. 34, 2000</dd>
+            
+              <dd><em>&#8220;Las relaciones M&eacute;xico-Canad&aacute;: su evoluci&oacute;n 
+                reciente&#8221;</em>, a publicarse en n&uacute;mero especial de Foro Internacional: 
+                Centro de Estudios Internacionales de El Colegio de M&eacute;xico, dedicado 
+                a la pol&iacute;tica exterior de M&eacute;xico durante el gobierno del presidente 
+                Ernesto Zedillo</dd>
+            
+              <dd><em>&#8220;Antonio D&iacute;az Soto y Gama y las vicisitudes del Partido Nacional 
+                Agrarista&#8221;</em>, n&uacute;mero especial (50) de la revista Iztapalapa: 
+                Divisi&oacute;n de Ciencias Sociales y Humanidades. UAM-I</dd>
+            
+              <dd><em>&#8220;Antonio D&iacute;az Soto y Gama, agrarista&#8221;</em>, n&uacute;mero 
+                34 de la revista Polis 2000: anuario del Departamento de Sociolog&iacute;a. 
+                UAM-I</dd>
+            
+              <dd><em>&#8220;Soto y Gama: semblanza de un iconoclasta&#8221;</em>, en Vetas, El Colegio 
+                de San Luis. Enero-Abril del 2002</dd>
+            
+              <dd><em>&#8220;La Campa&ntilde;a Presidencial de 1927-28 y el ocaso del Caudillismo&#8221;</em>. 
+                Historia Moderna y Contempor&aacute;nea. Instituto de Investigaciones Hist&oacute;ricas 
+                de la UNAM. 2002</dd>
+            
+              <dd><em>&#8220;Soto y Gama, rector por plebiscito&#8221;</em>, en Casa del Tiempo. 
+                Difusi&oacute;n Cultural de la Universidad Aut&oacute;noma Metropolitana. 
+                2003</dd>
+            
+              <dd><em>&#8220;&Aacute;lvaro Obreg&oacute;n, el &uacute;ltimo caudillo&#8221;</em>, 
+                en Polis 2004: anuario del Departamento de Sociolog&iacute;a. UAM-I</dd>
+            
+              <dd><em>&#8220;Memorias del Tren Presidencial&#8221;</em>, Bolet&iacute;n Fideicomiso 
+                Archivos Plutarco El&iacute;as Calles-Fernando Torreblanca. 2003 </dd>
+            
+              <dd><em>&#8220;The &#8216;return&#8217; of the Mennonites from the Cuauht&eacute;moc 
+                region to Canada: a perspective from Mexico&#8221;</em>, Journal of Mennonite 
+                Studies, Vol. 22, 2004, University of Winnipeg, Canada</dd>
+                
+                <dd>&ldquo;<em>&Aacute;lvaro Obreg&oacute;n, el &uacute;ltimo caudillo</em>&rdquo;, en Polis:  Investigaci&oacute;n y an&aacute;lisis sociopol&iacute;tico y psicosocial , V. 2, primavera 2004</dd>
+                <dd>&ldquo;<em>El general Francisco R. Serrano: una semblanza pol&iacute;tica</em>&rdquo;,  en Polis: Investigaci&oacute;n y An&aacute;lisis Sociopol&iacute;tico y Psicosocial, vol. I, n. 2,  segundo semester del 2005 </dd>
+                <dd>&ldquo;<em>Prieto contra Manrique: las elecciones de San Luis Potos&iacute;  de 1923</em>&rdquo;,  en Vetas: Revista de El Colegio de San Luis, ns. 22-23, enero-agosto del 2006</dd>
+                <dd>&ldquo;<em>Carlos A. Madrazo y la reforma imposible del PRI</em>&rdquo;, en  Polis: Investigaci&oacute;n y an&aacute;lisis sociopol&iacute;tico y psicosocial, vol. 3, n. 1.  Primer semestre del 2007</dd>
+                <dd>&ldquo;<em>El caudillismo en Am&eacute;rica Latina ayer y hoy</em>&rdquo;, en Pol&iacute;tica y  Cultura: nuevos movimientos sociales y cambios pol&iacute;ticos en Am&eacute;rica Latina, n.  27, primavera 2007</dd>
+                <dd>&ldquo;<em>El asesinato de &Aacute;lvaro Obreg&oacute;n: las caras de un imaginario  dividido</em>&rdquo;, en Iztapalapa, revista de ciencias sociales y humanidades, a&ntilde;o 27,  n. 61, julio-diciembre de 2006, pp. pp. 143-168 (Publicado en el 2008).</dd>
+              </dd>
+</dl>
+
+
+</div>
+</div>
+<div id="footer">
+	<div id="footWrapper">
+	<div id="footLeft">
+    <h5>Navegaci&oacute;n</h5>
+    <ul>
+    	<li><a href="../">Inicio</a></li>
+        <li><a href="publicaciones.html">Publicaciones</a></li>
+        <li><a href="curriculum-de-pedro-castro.html">Curr&iacute;culum</a></li>
+   	</ul>
+    <br />
+    
+      </div>
+
+	<div id="footMid">
+   <p>Copyright 2010, Pedro Castro. Derechos Reservados.</p>	  
+   	  
+   	  
+<br clear="all" />
+</div>
+<br clear="all" />   
+    </div>
+    </div>
+</body>
+</html>

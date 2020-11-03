@@ -1,0 +1,66 @@
+/* jqModal base Styling courtesy of;
+	Brice Burgess <bhb@iceburg.net> */
+
+/* The Window's CSS z-index value is respected (takes priority). If none is supplied,
+	the Window's z-index value will be set to 3000 by default (via jqModal.js). */
+	
+.jqmWindow { display: none; position: fixed; top: 4%; left: 50%; margin-left: -425px; width: 850px; height: 450px; color: #333; border: 1px solid #333333; padding: 0px; background: #000000; }
+
+.jqmOverlay { background-color: #000; }
+
+/* Background iframe styling for IE6. Prevents ActiveX bleed-through (<select> form elements, etc.) */
+* iframe.jqm {position:absolute;top:0;left:0;z-index:-1;
+	width: expression(this.parentNode.offsetWidth+'px');
+	height: expression(this.parentNode.offsetHeight+'px');
+}
+
+/* Fixed posistioning emulation for IE6
+     Star selector used to hide definition from browsers other than IE6
+     For valid CSS, use a conditional include instead */
+* html .jqmWindow {
+     position: absolute;
+     top: expression((document.documentElement.scrollTop || document.body.scrollTop) + Math.round(17 * (document.documentElement.offsetHeight || document.body.clientHeight) / 100) + 'px');
+}
+
+.jqmAlertTitle{ margin:0px; height:20px; color:#FFF; background:#000000; }
+.jqmAlertTitle h1{
+  margin:5px 2px;
+  padding-left:5px;
+  padding:0;
+  font-size:14px;
+  text-transform:capitalize;
+  letter-spacing:-1px;
+  font-weight:bold;
+  color:#FFF;
+  float:left;
+  height:20px;
+}
+
+div.jqmWindow .jqmClose em{display:none;}
+div.jqmWindow .jqmClose { width:20px; height:20px; display:block; float:right; clear:right; background:transparent url(../images/close_icon_double.png) no-repeat 0 0; }
+
+div.jqmWindow a.jqmClose:hover,div.jqmWindow a.jqmCloseHover{ background-position: 0 -20px; }
+
+#jqmContent{ clear: both; overflow: auto; height: 420px; background: #0F0F0F; }
+#jqmContent h3 { font-size: 1.1em; width: 740px; margin: 5px 10px; color: #CC9966; }
+#jqmContent p { margin: 10px 10px; color: #CCCCCC; }
+#jqmContent dl { margin: 0px 10px; font-size: .8em; color: #CCCCCC; }
+#jqmContent dt { font-weight: bold; color: #CC9966; }
+
+/* clearing a float without additional markup
+   http://www.positioniseverything.net/easyclearing.html */
+
+.clearfix:after {
+    content: "."; 
+    display: block; 
+    height: 0; 
+    clear: both; 
+    visibility: hidden;
+}
+
+.clearfix {display: inline-block;}
+
+/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac *
